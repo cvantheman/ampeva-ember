@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 body {
-    background-image: url("../images/shutterstock_1006999864.jpg");
+    background-image: url("../images/HexagonsCropped.jpg");
     background-size: 2000px 2000px;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
@@ -44,6 +44,11 @@ address {
 .main-section {
     background-color: rgb(41, 41, 41);
     color: white;
+    
+}
+
+.main-area {
+    padding: 0 50px;    
 }
 
 .hero-h1 {
@@ -57,7 +62,7 @@ address {
 }
 
 .header-logo{
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
