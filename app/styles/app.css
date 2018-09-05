@@ -3,12 +3,13 @@ body, html {
 }
 body {
     background-image: url("../images/HexagonsCropped.jpg");
-    background-size: 2000px 2000px;
+    background-size: 100% 100%;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 footer {
-    background-color: darkslategrey;
+    background-color: rgb(41, 41, 41);
+    /* background-color: rgb(243, 243, 241); */
 }
 
 h1, h2, h3, h5, h6, h7 {
@@ -56,9 +57,7 @@ address {
 }
 
 .background-image{
-    width: 100%;
-    height: 25%;
-    opacity: 0%;
+    width: 50%;
 }
 
 .header-logo{
@@ -109,4 +108,13 @@ address {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.footer-text {
+    color: white;
+    font-size: 8pt;
+}
+
+.footer-image {
+    width: 80%;
 }
