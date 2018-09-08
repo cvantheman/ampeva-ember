@@ -110,11 +110,20 @@ address {
     color: white;
 }
 
+.gpsa-footer-text {
+    color: white;
+    /* font-size: 8.5pt; */
+    text-align: center;
+}
+
 .footer-text {
     color: white;
-    font-size: 8pt;
 }
 
 .footer-image {
-    width: 80%;
+    width: 60%;
+}
+
+.linkedin-footer-image {
+    width: 5%;
 }
