@@ -1,19 +1,19 @@
-body, html {
+html {
     height: 100%;
 }
+
 body {
+    height: 100%;
     background-image: url("../images/HexagonsCropped.jpg");
     background-size: 100% 100%;
-    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
     background-color: rgb(41, 41, 41);
-    /* background-color: rgb(243, 243, 241); */
 }
 
 h1, h2, h3, h5, h6, h7 {
-    /* color: darkslategrey; */
     color: rgb(255, 196, 0);
 }
 
@@ -42,6 +42,7 @@ h4, strong {
 address {
     font-size: 12pt;
 }
+
 .main-section {
     background-color: rgb(41, 41, 41);
     color: white;
@@ -56,31 +57,27 @@ address {
     color: rgb(255, 196, 0);
 }
 
-.background-image{
+.background-image {
     width: 50%;
 }
 
-.header-logo{
+.header-logo {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header-image{
+.header-image {
     width: 100%;
     height: 200px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
 }
 
-.fixed{
-    width: 600px;
-}
-
-.flex-item{
+.flex-item {
     flex-grow: 1;
 }
 
@@ -108,6 +105,7 @@ address {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    /* font-size: 12pt; */
 }
 
 .gpsa-footer-text {
