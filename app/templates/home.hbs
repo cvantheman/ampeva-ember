@@ -1,44 +1,18 @@
 <div class="main-area main-section container">
 
     <div class="row">
-        <div class="who-are-we col">
-            <br>
-            <h1>Who are we?</h1>
-            <p>Ampeva is a consulting organization with a primary focus in Process Safety and Risk Management.  Services are based on years of experience in compliance with 29 CFR 1910.119 (OSHA Process Safety Management of Highly Hazardous Chemicals) and 40 CFR Part 68 (EPA‐ Risk Management Plan).   Paired with a diverse background in onshore Natural Gas E&P, midstream Gas Processing/Treating/NGL Fractionation, and the Chemical Processing Industry, Ampeva delivers a first‐class product for its client.</p>
-        </div>
+            {{#who-are-we class="col"}}
+            {{/who-are-we}}
         <div class="col">
             <br>
-            <div class="contact-us container alert alert-dark">
-                <h4>Contact us today</h4>
-                <address>
-                    <strong>Email</strong><br>
-                    <a href="mailto:#">info@ampeva.com</a><br>
-                    <strong>Phone</strong><br>
-                    <p>903.238.1488 or 512.496.1802</p>
-                </address>
-            </div>
+            {{#contact-us}}
+            {{/contact-us}}
         </div>
     </div>
     <div class="what-we-do row">
-        <div class="col">
-            <h1>What we do</h1>
-            <ul>
-                <li>Overall Review, Strategy, Development and Implementation Support of PSM/RMPPrograms.  This can be done at the Plant or Corporate level to help your organization apply the most “fit for purpose” practices while complying with PSM/RMP.  Solutions are tailored to your needs.</li>
-                <li>A full review of Process Safety Information (PSI) at your facility with reference to potential gaps in complying with PSM/RMP regulation or Industry Recognized and Generally Accepted Good Engineering Practice (RAGAGEP).</li>
-                <li>Development of site‐specific Mechanical Integrity Programs at your facility.  This involves (1) building an accurate equipment list using a combination of PSI review and field verification, (2) assigning industry specific ITPM Type Tasks (Inspection, Testing, and Preventive Maintenance) to each piece of equipment, (3) identifying required or recommended frequency of the ITPM Task, and (4) assisting your organization in solutions for overall program execution.</li>
-                <li>Project Compliance with PSM/RMP.  A full plan customized to your project can be put in place to ensure needed documentation (QA/QC & PSI) is being assembled, completed and provided during all phases.</li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul>
-                <li>Facilitation of Process Hazard Analysis (PHA) Studies.  PHAs can be completed during the conceptual/design phase of a project, as an “Initial PHA” at a facility, or as a PHA Revalidation.</li>
-                <li>Review and Development of Operating or Maintenance Procedures to meet the regulatory requirements of PSM/RMP.</li>
-                <li>Review, Development, and Delivery of Training Programs to meet the regulatory requirements of PSM/RMP.</li>
-                <li>Leading Investigations related to Occupational/Process Safety Incidents and issuing reports with findings/recommendations.</li>
-                <li>PSM/RMP Compliance Auditing.  As an alternative to a Compliance Audit, an Assessment can be completed to highlight potential areas of improvement.</li>
-                <li>Assistance in the development, update or review of Risk Management Plans submitted to the EPA as part of compliance with the RMP Rule.</li>
-                <li>Review and update or creation of new drawings associated with your Facility (e.g. P&IDs, Block Flow Diagrams, or Plot Plans).  Whether large or small, our organization partners with professional Draftsman that can handle your Drafting needs.</li>
-            </ul>
-        </div>
+        {{#what-we-do-section-1 class="col"}}
+        {{/what-we-do-section-1}}
+        {{#what-we-do-section-2 class="col"}}
+        {{/what-we-do-section-2}}
     </div>
 </div>
